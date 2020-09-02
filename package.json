@@ -1,0 +1,19 @@
+{
+  "name": "video-strem-with-node-onvif-and-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thalesgomes28/video-strem-with-node-onvif-and-express.git",
+  "author": "thalesgomes28 <thalesgomes28@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
+  }
+}
