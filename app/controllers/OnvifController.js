@@ -12,7 +12,7 @@ export default {
       user: process.env.ADMIN,
       pass: process.env.PASSWORD,
     });
-
+    console.log("==================\n Device Created:", device, "\n==================")
     // Initialize 
     device
       .init()
